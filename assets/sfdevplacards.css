@@ -1,0 +1,79 @@
+body{
+	background:url("development_10_70.png") repeat #efefef;
+	padding-top:2em; 
+}
+
+#sfdp_nagbar	{
+	position:fixed;
+	top:0;
+
+	background-color:#5cb85c; 
+	border-color:#4cae4c; 
+
+	color:#fff; 
+	font-weight:bold; 
+	text-align:center; 
+
+	margin:0; 
+	width:100%; 
+	line-height:1.25em;
+
+	overflow-x:hidden;
+	white-space: nowrap;
+}
+
+#wpadminbar #sfdp_nagbar{
+	position:relative;
+}
+
+
+/* colors - based on Bootstrap 4 */
+#sfdp_nagbar.primary{
+	color: #004085;
+	background-color: #cce5ff;
+	border-color: #b8daff;
+}
+
+#sfdp_nagbar.secondary{
+	color: #383d41;
+	background-color: #e2e3e5;
+	border-color: #d6d8db;
+}
+
+#sfdp_nagbar.success{
+	color: #155724;
+	background-color: #d4edda;
+	border-color: #c3e6cb;
+}
+
+#sfdp_nagbar.danger{
+	color: #721c24;
+	background-color: #f8d7da;
+	border-color: #f5c6cb;
+}
+
+#sfdp_nagbar.warning{
+	color: #856404;
+	background-color: #fff3cd;
+	border-color: #ffeeba;
+}
+
+#sfdp_nagbar.info{
+	color: #0c5460;
+	background-color: #d1ecf1;
+	border-color: #bee5eb;
+}
+
+#sfdp_nagbar.light{
+	color: #818182;
+	background-color: #fefefe;
+	border-color: #fdfdfe;
+}
+
+#sfdp_nagbar.dark{
+	color: #1b1e21;
+	background-color: #d6d8d9;
+	border-color: #c6c8ca;
+}
+
+
